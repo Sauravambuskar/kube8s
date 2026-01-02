@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>hi my name is sayrav</title>
+  </head>
+  <body>
+    <h1>Welcome to My Website</h1>
+    <p>This is a simple Flask application.</p>
+
+    # enviromenta variebles print values using a loop from a dictionary jinja2
+    {% for key, value in env.items() %} y, value in env.items() %}
+    <p>{{ key }}: {{ value }}</p>
+    {% endfor %}
+  </body>
+  <style>
+    body {
+      background-color: lightblue;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 50px;
+    }
+    h1 {
+      color: navy;
+    }
+    p {
+      font-size: 20px;
+    }
+  </style>
+</html>
