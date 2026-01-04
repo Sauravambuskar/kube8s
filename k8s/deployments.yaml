@@ -3,8 +3,10 @@ kind: Deployment
 metadata:
   name: fendry
   labels:
-  desc: fendry-app-deployment
+    app: fendry
+    desc: fendry-app-deployment
 spec:
+  replicas: 1
   selector:
     matchLabels:
       app: fendry
